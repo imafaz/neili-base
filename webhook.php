@@ -19,18 +19,18 @@ if ($update) {
     $text = $message['text'];
     $chatType = $message['chat']['type'];
     $chatId = $message['chat']['id'];
-}
 
 
 
 
-if ($chatType == 'private') {
-    if ($text == '/start') {
-        $buttons = ['button1', 'button2', 'button3', 'button4', 'button5'];
-        $keyboard = Neili::keyboard($buttons);
-        $bot->sendMessage($chatId, $_LANG['startmessage'], $keyboard);
-        $buttons = ['button1' => 'customdata', 'button2' => 'customdata', 'button3' => 'customdata'];
-        $keyboard = Neili::inlineKeyboard($buttons);
-        $bot->sendMessage($chatId, $_LANG['startmessage'], $keyboard);
+    if ($chatType == 'private') {
+        if ($text == '/start') {
+            $buttons = ['button1', 'button2', 'button3', 'button4', 'button5'];
+            $keyboard = Neili::keyboard($buttons);
+            $bot->sendMessage($chatId, $_LANG['startmessage'], $keyboard);
+            $buttons = ['button1' => 'customdata', 'button2' => 'customdata', 'button3' => 'customdata'];
+            $keyboard = Neili::inlineKeyboard($buttons);
+            $bot->sendMessage($chatId, $_LANG['startmessage'], $keyboard);
+        }
     }
 }
