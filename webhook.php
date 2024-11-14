@@ -2,6 +2,8 @@
 
 $env = parse_ini_file('config/.env', true);
 
+
+require 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 require 'lang' . DIRECTORY_SEPARATOR . $env['bot']['lang'] . '.php';
 
 
