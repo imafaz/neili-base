@@ -1,0 +1,4 @@
+[27-Oct-2023 18:20:47 UTC] [DEBUG] This is a debug message.
+[27-Oct-2023 18:20:47 UTC] [INFO] This is an informational message.
+[27-Oct-2023 18:20:47 UTC] [WARNING] This is a warning message.
+[27-Oct-2023 18:20:47 UTC] [ERROR] This is an error message.

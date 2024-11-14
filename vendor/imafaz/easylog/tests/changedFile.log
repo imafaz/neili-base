@@ -1,0 +1,10 @@
+[27-Oct-2023 18:20:47 UTC] [DEBUG] This is a debug message.
+[27-Oct-2023 18:20:47 UTC] [INFO] This is an informational message.
+[27-Oct-2023 18:20:47 UTC] [WARNING] This is a warning message.
+[27-Oct-2023 18:20:47 UTC] [ERROR] This is an error message.
+[27-Oct-2023 18:20:47 UTC] PHP Fatal error:  Uncaught Exception: This is a fatal message. in C:\Users\mrafaz\Desktop\EasyLog\src\Logger.php:116
+Stack trace:
+#0 C:\Users\mrafaz\Desktop\EasyLog\src\Logger.php(182): EasyLog\Logger->logging()
+#1 C:\Users\mrafaz\Desktop\EasyLog\tests\usage.php(34): EasyLog\Logger->fatal()
+#2 {main}
+  thrown in C:\Users\mrafaz\Desktop\EasyLog\src\Logger.php on line 116

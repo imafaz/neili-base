@@ -1,0 +1,113 @@
+{
+    "packages": [
+        {
+            "name": "imafaz/easylog",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imafaz/EasyLog.git",
+                "reference": "64067a91de6a086bcda9db80c89925bd4eee4e7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imafaz/EasyLog/zipball/64067a91de6a086bcda9db80c89925bd4eee4e7d",
+                "reference": "64067a91de6a086bcda9db80c89925bd4eee4e7d",
+                "shasum": ""
+            },
+            "require": {
+                "php-64bit": ">=7.0"
+            },
+            "time": "2024-11-14T13:19:22+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "EasyLog\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abolfazl Majidi (MrAfaz)",
+                    "email": "abolfazlmajidi100@gmail.com",
+                    "homepage": "https://mrafaz.com"
+                }
+            ],
+            "description": "lightweight logger library for PHP, which allows developers to easily log messages at different levels such as debug, info, warning, error, and fatal.",
+            "homepage": "https://github.com/imafaz/EasyLog",
+            "keywords": [
+                "easylog",
+                "imafaz",
+                "lightweight php logger",
+                "logger",
+                "php logger",
+                "php logging"
+            ],
+            "support": {
+                "issues": "https://github.com/imafaz/EasyLog/issues",
+                "source": "https://github.com/imafaz/EasyLog/tree/v1.0.2"
+            },
+            "install-path": "../imafaz/easylog"
+        },
+        {
+            "name": "imafaz/neili",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imafaz/Neili.git",
+                "reference": "5a17c934fd95f402505c7cbd991050e4d54d669c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imafaz/Neili/zipball/5a17c934fd95f402505c7cbd991050e4d54d669c",
+                "reference": "5a17c934fd95f402505c7cbd991050e4d54d669c",
+                "shasum": ""
+            },
+            "require": {
+                "imafaz/easylog": "^1",
+                "php-64bit": ">=7.0"
+            },
+            "time": "2023-10-28T13:19:48+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TelegramBot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abolfazl Majidi (MrAfaz)",
+                    "email": "abolfazlmajidi100@gmail.com",
+                    "homepage": "https://mrafaz.com"
+                }
+            ],
+            "description": "neili is a lightweight library for managing and creating automation for telegram api bots",
+            "homepage": "https://github.com/imafaz/neili",
+            "keywords": [
+                "api telegram",
+                "imafaz",
+                "neili",
+                "robot telegram",
+                "telegram api robot",
+                "telegram bot"
+            ],
+            "support": {
+                "issues": "https://github.com/imafaz/Neili/issues",
+                "source": "https://github.com/imafaz/Neili/tree/v1.0.0"
+            },
+            "install-path": "../imafaz/neili"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
